@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">projetws</string>
+    <string-array name="villes">
+        <item>Marrakech</item>
+        <item>Agadir</item>
+        <item>Rabbat</item>
+        <item>Casa</item>
+        <item>Fes</item>
+        <item>Sale</item>
+    </string-array>
+</resources>

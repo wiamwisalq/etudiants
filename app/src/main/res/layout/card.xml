@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_marginLeft="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="5dp"
+    android:paddingTop="20dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfil"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/user"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+    <TextView
+        android:id="@+id/nomP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/imgProfil"
+        android:fontFamily="@font/f2"
+        android:text="TextView"
+        android:textColor="@color/mine4"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/prenomP"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_below="@+id/nomP"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="-25dp"
+        android:layout_toEndOf="@+id/nomP"
+        android:fontFamily="@font/f2"
+        android:text="TextView"
+        android:textColor="@color/mine4"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/sexeP"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_below="@+id/villeP"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/sexeP2"
+        android:fontFamily="@font/f2"
+        android:text="TextView"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/sexeP2"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_below="@+id/villeP"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/imgProfil"
+        android:fontFamily="@font/f2"
+        android:text="Sexe : "
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/villeP"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_below="@+id/prenomP"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/villeP2"
+        android:fontFamily="@font/f2"
+        android:text="TextView"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/villeP2"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_below="@+id/prenomP"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/imgProfil"
+        android:fontFamily="@font/f2"
+        android:text="Ville : "
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/ide"
+        android:layout_width="1dp"
+        android:layout_height="33dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="45dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="29dp"
+        app:srcCompat="@drawable/pencil" />
+</RelativeLayout>
